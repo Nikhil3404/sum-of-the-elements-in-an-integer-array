@@ -1,0 +1,13 @@
+package recursionPuzzles;
+
+public class sumOfElements {
+	public static void main(String args[]){
+        int[] array = {2,85,248,22,4,15,25};
+        int sum = 0;
+        //Advanced for loop
+        for( int num : array) {
+            sum = sum+num;
+        }
+        System.out.println("Sum of array elements are:"+sum);
+     }
+  }
